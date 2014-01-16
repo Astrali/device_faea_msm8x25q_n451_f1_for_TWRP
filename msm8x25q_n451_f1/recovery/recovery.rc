@@ -85,9 +85,9 @@ on property:service.adb.root=1
 #import <filename>
 # Parse an init config file, extending the current configuration.
 
-#This will kill the recovery once everything is started. This will force the screen to turn on.
-service restart_recovery /sbin/killall recovery
-oneshot
-
+##This will kill the recovery once everything is started. This will force the screen to turn on.
+#service restart_recovery /sbin/killall recovery
+#oneshot
+#removed for testing
 
 
