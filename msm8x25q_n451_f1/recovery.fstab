@@ -28,16 +28,16 @@
 # mount point	fstype		device			[device2]
  
 /dev/block/mmcblk0p16 /boot  emmc         defaults     recoveryonly
-/dev/block/mmcblk0p18 /cache ext4          defaults     recoveryonly
-/dev/block/mmcblk0p21 /data ext4 length=-16384         defaults     recoveryonly
-/dev/block/mmcblk0p13 /recovery emmc          defaults     recoveryonly
+/dev/block/mmcblk0p18 /cache ext4         defaults     recoveryonly
+/dev/block/mmcblk0p21 /data ext4          defaults     recoveryonly
+/dev/block/mmcblk0p13 /recovery emmc      defaults     recoveryonly
 /dev/block/mmcblk0p11 /misc emmc          defaults     recoveryonly
 /dev/block/mmcblk1p1 /dev/block/mmcblk1 /sdcard vfat          defaults     recoveryonly
-/dev/block/mmcblk0p17 /system ext4          defaults     recoveryonly
-/dev/block/mmcblk0p3 /sys_boot vfat          defaults     recoveryonly
+/dev/block/mmcblk0p17 /system ext4        defaults     recoveryonly
+/dev/block/mmcblk0p3 /sys_boot vfat       defaults     recoveryonly
 /dev/block/mmcblk0p19 /FOTA emmc          defaults     recoveryonly
-/dev/block/mmcblk0p20 /sdcard1 vfat          defaults     recoveryonly
-/dev/block/mmcblk1p2 /sd-ext auto          defaults     recoveryonly
+/dev/block/mmcblk0p20 /sdcard1 vfat       defaults     recoveryonly
+/dev/block/mmcblk1p2 /sd-ext auto         defaults     recoveryonly
 
 # Android fstab file.
 #<src>                                                  <mnt_point>         <type>    <mnt_flags and options>                               <fs_mgr_flags>
