@@ -64,3 +64,6 @@ TARGET_RECOVERY_INITRC := device/faea/msm8x25q_n451_f1/recovery/recovery.rc
 RECOVERY_GRAPHICS_USE_LINELENGTH := true
 TW_CUSTOM_POWER_BUTTON := 107
 TW_INCLUDE_JB_CRYPTO := true
+
+RECOVERY_FSTAB_VERSION := 1
+TARGET_RECOVERY_FSTAB := device/faea/msm8x25q_n451_f1/recovery.fstab
