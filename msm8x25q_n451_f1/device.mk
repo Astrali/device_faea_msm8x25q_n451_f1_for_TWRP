@@ -16,6 +16,7 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_KERNEL):kernel \
+    $(LOCAL_PATH)/twrp.fstab:recovery/etc/twrp.fstab \
     $(LOCAL_PATH)/root/charger:recovery/root/charger \
     $(LOCAL_PATH)/root/fstab.msm7627a:recovery/root/fstab.msm7627a \
     $(LOCAL_PATH)/root/fstab.nand.msm7627a:recovery/root/fstab.nand.msm7627a \
